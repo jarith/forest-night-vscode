@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "build",
+    "sourceMap": false
+  },
+  "include": ["src/generateThemes.ts"],
+  "exclude": ["node_modules"]
+}

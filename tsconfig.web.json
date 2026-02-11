@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "build/web",
+    "sourceMap": false
+  },
+  "include": ["src/extension.ts"],
+  "exclude": ["node_modules"]
+}
